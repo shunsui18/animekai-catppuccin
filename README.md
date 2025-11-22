@@ -13,7 +13,7 @@ A custom Catppuccin Mocha-inspired [AnimeKAI](https://animekai.me/ "Go to AnimeK
 
 # **Installation Instructions**
 - Install the Stylus Extension on your browser.
-- Click the **Install** button on the [theme download page](https://userstyles.world/style/24910/fitgirl-repacks-catppuccin "Go to FitGirl Repacks Catpuccin theme download page") of [UserStyles.world](https://userstyles.world "Go to UserStyles.world hompage") website.
+- Click the **Install** button on the [theme download page](https://userstyles.world/style/25226/animekai-catppuccin "Go to AnimeKAI Catpuccin theme download page") of [UserStyles.world](https://userstyles.world "Go to UserStyles.world hompage") website.
   ### **or**
 - Go to Stylus settings.
 - Click the **+ (Write new style)** icon.
