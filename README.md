@@ -3,7 +3,7 @@
 A custom Catppuccin Mocha-inspired [AnimeKAI](https://animekai.me/ "Go to AnimeKAI homepage") theme.
 
 # **Preview**
-![fitgirl-rpacks-catppuccin-preview](https://github.com/shunsui18/fitgirl-repacks-catppuccin/blob/main/fitgirl-repacks-catppuccin-preview.png)
+![animekai-catppuccin-preview](https://raw.githubusercontent.com/shunsui18/animekai-catppuccin/refs/heads/main/animekai-catppuccin-preview.png)
 
 # **External Resources**
 - [Stylus](https://github.com/openstyles/stylus "Go to Stylus GitHub page") - This is a browser extension that lets users customise the appearance of websites using custom CSS themes and styles. It allows you to apply, edit, and manage user-created styles to change how sites look and feel directly in your browser.
