@@ -1,0 +1,1170 @@
+/* Catppuccin Mocha Palette */
+:root {
+    --rosewater: #f5e0dc;
+    --flamingo: #f2cdcd;
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --maroon: #eba0ac;
+    --peach: #fab387;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --sky: #89dceb;
+    --sapphire: #74c7ec;
+    --blue: #89b4fa;
+    --lavender: #b4befe;
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+    --overlay2: #9399b2;
+    --overlay1: #7f849c;
+    --overlay0: #6c7086;
+    --surface2: #585b70;
+    --surface1: #45475a;
+    --surface0: #313244;
+    --base: #1e1e2e;
+    --mantle: #181825;
+    --crust: #11111b;
+}
+
+/*---------------------------------------------*/
+#wrapper.home main {
+background-color: var(--base);
+}
+
+a {
+    color: var(--text);
+}
+
+body #main-area,
+body #wrapper,
+body main {
+    background-color: var(--base);
+}
+
+.index-head #search .inner {
+    background-color: var(--red);
+}
+
+.index-head #search .inner form > i:hover,
+.index-head #search .inner form a:hover,
+.index-head #search .inner form > i,
+.index-head #search .inner form a,
+i.fa-solid.fa-filter,
+i.fa-solid.fa-filter:hover {
+    color: var(--crust);
+    opacity: 1;
+}
+
+.container.index-content {
+    color: var(--text);
+}
+
+.container.index-content h2 {
+    color: var(--subtext1);
+}
+
+.index-content.container.mt-5 b {
+    color: var(--overlay2)
+}
+
+.index-content.container.mt-5 p {
+    color: var(--overlay0)
+}
+
+#wrapper.index-page {
+background-color: var(--surface0);
+}
+
+/* Navigation Bar */
+.brand {
+    padding-left: 10px;
+}
+
+.brand:hover {
+    background-color: white;
+    border: solid 12px white;
+    border-radius: 14px;
+    opacity: 1;
+}
+
+header .nav-wrapper {
+    background-color: var(--blue);
+}
+
+#search .inner {
+background-color: var(--red);
+border: solid 2px white;
+}
+
+#search .inner form input,
+#search .inner form > i,
+#search .inner form > a,
+#search .inner form a i {
+color: var(--crust);
+}
+
+.fa-solid {
+    color: white;
+    opacity: .8;
+}
+
+.fa-solid:hover {
+    color: white;
+    opacity: 1;
+}
+
+.nav-menu > ul > li > a {
+    color: white;
+    opacity: .8;
+}
+
+.nav-menu > ul > li > a:hover {
+    opacity: 1;
+}
+
+.nav-menu > ul > li > a::after {
+    background-color: var(--red);
+}
+
+.lang-sw {
+    background-color: var(--red);
+    border: solid 2px white;
+    border-radius: 50px;
+}
+
+.lang-sw:hover {
+    background-color: white;
+    border: solid 2px var(--red);
+    color: var(--red);
+    border-radius: 50px;
+}
+
+.lang-sw span.active {
+    background-color: var(--yellow);
+    color: orange;
+}
+
+.lang-sw span.active:hover {
+    background-color: var(--yellow);
+    color: orange;
+}
+
+.acc-wrap .pathway .btn {
+    background-color: var(--yellow);
+    border: solid 2px white;
+}
+
+.acc-wrap .pathway .btn .fa-solid {
+    color: orange;
+}
+
+.acc-wrap .pathway .btn:hover {
+    background-color: white;
+    border: solid 2px orange;
+    opacity: 1;
+}
+
+.nav-menu > ul > li > ul,
+.acc-wrap .pathway .dropdown-menu {
+    background-color: var(--surface1);
+}
+
+.nav-menu > ul > li > ul > li > a:hover {
+    color: white;
+}
+
+.acc-wrap .pathway .dropdown-menu .head {
+    background-color: var(--surface0);
+}
+
+.acc-wrap .pathway .dropdown-menu .head > .btn {
+    background-color: var(--yellow);
+    border: solid 2px white;
+}
+
+i.fa-solid.fa-arrow-right-from-bracket::before {
+    color: orange;
+}
+
+.acc-wrap .pathway .dropdown-menu .head > .btn:hover {
+    background-color: white;
+    border: solid 2px orange;
+}
+
+.acc-wrap .pathway .dropdown-menu .head > .btn i {
+    opacity: 1;
+}
+
+.acc-wrap .pathway .dropdown-menu .dropdown-item:hover span {
+    background-color: var(--surface2);
+}
+
+.acc-wrap .notify .dropdown-menu {
+    background-color: var(--surface1);
+}
+
+.noti-tab a.active,
+.noti-tab span.active {
+    background-color: var(--red);
+    color: var(--crust);
+}
+
+.noti-tab a,
+.noti-tab span {
+    background-color: var(--blue);
+    color: white;
+}
+
+.aitem-wrapper.mini.noti .detail span {
+    color: var(--subtext0);
+}
+
+.shead .stitle {
+    color: var(--text);
+}
+
+.text-center {
+    color: var(--subtext0);
+}
+
+/*  Account Box */
+.modal-content {
+    background-color: var(--surface1);
+}
+
+.modal .modal-dialog .modal-content:not(.normal)::before {
+    background-color: var(--red);
+}
+
+.modal-body h5 {
+    color: var(--text) !important;
+}
+
+.alert-success {
+    background-color: var(--green);
+    color: var(--surface1);
+    border: solid 1px var(--surface1);
+}
+
+.alert-danger {
+    background-color: var(--red);
+    color: var(--crust);
+    border: solid 1px var(--crust);
+}
+
+.form-control {
+    background-color: var(--blue);
+    color: white;
+}
+
+.form-control:focus {
+    background-color: var(--blue);
+    color: white;
+}
+
+input:autofill,
+input:autofill:focus {
+    -webkit-transition: background-color 600000s 0s, color 600000s 0s;
+    transition: background-color 600000s 0s, color 600000s 0s;
+}
+
+.form-control:-webkit-autofill,
+.form-control:-webkit-autofill:focus {
+    -webkit-text-fill-color: white !important;
+    box-shadow: 0 0 0 1000px #89b4fa inset !important;
+    -webkit-box-shadow: 0 0 0 1000px #89b4fa inset !important;
+    transition: background-color 600000s 0s, color 600000s 0s !important;
+}
+
+.modal .modal-dialog .modal-content .modal-btn {
+    background-color: var(--yellow);
+    color: orange;
+    border: solid 2px white;
+}
+
+.modal .modal-dialog .modal-content .modal-btn:hover {
+    background-color: white;
+    color: orange;
+    border: solid 2px orange;
+}
+
+.mt-3 {
+    color: var(--subtext0);
+}
+
+.cs-switcher {
+    color: white !important;
+}
+
+/* Slide */
+#featured .swiper.featured .swiper-wrapper .swiper-slide,
+#featured .swiper.featured .swiper-wrapper .swiper-slide:hover {
+color: var(--text);
+}
+
+.sub {
+    background-color: var(--blue);
+    border: solid 2px white;
+    color: white;
+    padding: 8px;
+}
+
+.sub svg {
+    fill: white;
+}
+
+.dub {
+    background-color: var(--red);
+    border: solid 2px white;
+    color: var(--crust);
+    padding: 8px;
+}
+
+.dub svg {
+    fill: var(--crust);
+}
+
+#featured .swiper.featured .swiper-wrapper .swiper-slide .detail .info span + span {
+color: var(--crust);
+}
+
+#featured .swiper.featured .swiper-wrapper .swiper-slide .detail .desc {
+color: var(--overlay00);
+}
+
+#featured .swiper.featured .swiper-wrapper .swiper-slide .detail .mics {
+background-color: var(--surface1);
+}
+
+#featured .swiper.featured .swiper-wrapper .swiper-slide .detail .swiper-ctrl .watch-btn {
+background-color: var(--yellow);
+color: orange;
+border: solid 2px white;
+}
+
+#featured .swiper.featured .swiper-wrapper .swiper-slide .detail .swiper-ctrl .watch-btn:hover {
+background-color: white;
+color: orange;
+border: solid 2px orange;
+}
+
+#featured .swiper.featured .swiper-wrapper .swiper-slide .detail .swiper-ctrl .dropdown button:hover {
+color: var(--yellow);
+}
+
+/* Social Sharing */
+#social-sharing {
+background-color: var(--surface1);
+}
+
+#social-sharing .text-sharing .h4,
+#social-sharing .text-sharing h4 {
+color: var(--text);
+}
+
+/* Alert */
+.alert.alert-secondary {
+    background-color: var(--lavender);
+    color: white;
+}
+
+.alert.alert-secondary .text-primary {
+    color: var(--overlay0) !important;
+}
+
+/* Anime Tiles */
+.shead .stitle.onoff-toggle::after {
+    background-color: var(--red);
+}
+
+i.fa-solid.fa-square-arrow-up-right {
+    color: var(--yellow);
+    opacity: 1;
+    background: radial-gradient(circle, rgba(255, 165, 0, 1) 0%, rgba(255, 165, 0, 1) 47%, rgba(237, 221, 83, 0) 21%);
+}
+
+i.fa-solid.fa-square-arrow-up-right:hover {
+    color: orange;
+    background: radial-gradient(circle, rgba(249, 226, 175, 1) 0%, rgba(249, 226, 175, 1) 47%, rgba(237, 221, 83, 0) 21%);
+}
+
+i.fa-solid.fa-circle-chevron-left,
+i.fa-solid.fa-circle-chevron-right {
+    color: var(--yellow);
+    background-color: orange;
+    border-radius: 20px;
+    opacity: 1;
+}
+
+i.fa-solid.fa-circle-chevron-left:hover,
+i.fa-solid.fa-circle-chevron-right:hover {
+    color: orange;
+    background-color: var(--yellow);
+    border-radius: 20px;
+}
+
+.aitem-wrapper.regular .aitem .inner .progress-bar > div {
+    background-color: var(--red);
+}
+
+.shead .snav > a:hover,
+.shead .snav > span {
+    color: var(--subtext0);
+}
+
+.shead .snav > a:hover,
+.shead .snav > span:hover,
+.shead .snav > span.active {
+    color: white;
+}
+
+.title {
+    color: var(--text);
+}
+
+.info > span > b {
+    color: var(--subtext0);
+}
+
+.aitem-wrapper.mini .aitem {
+    background-color: var(--surface1) !important;
+}
+
+.aitem-wrapper.mini .aitem:hover {
+    background-color: var(--surface2) !important;
+}
+
+.aitem-wrapper.regular .aitem .inner .ctrl button {
+    background-color: var(--yellow);
+    border: solid 2px white;
+}
+
+.aitem-wrapper.regular .aitem .inner .ctrl button:hover {
+    background-color: white;
+    border: solid 2px orange;
+}
+
+.aitem-wrapper.regular .aitem .inner .ctrl button i {
+    color: orange;
+}
+
+.tooltipster-content {
+    background-color: var(--surface0) !important;
+}
+
+.ttrating {
+    background-color: var(--red) !important;
+    color: var(--crust);
+}
+
+.tooltipster-box .tooltipster-content .watch-btn {
+    background-color: var(--surface2) !important;
+}
+
+.tooltipster-box .tooltipster-content .watch-btn:hover span {
+    color: white !important;
+}
+
+
+.tooltipster-box .tooltipster-content .watch-btn i {
+    color: var(--yellow) !important;
+    opacity: 1;
+}
+
+.tooltipster-box .tooltipster-content .watch-btn:hover i {
+    color: orange !important;
+}
+
+/* Side Panel */
+.dual-col .sidebar .sidebar-section {
+    background-color: var(--surface1);
+}
+
+.shead .stitle i {
+    background-color: var(--yellow);
+    color: orange;
+    opacity: 1;
+    border: solid 2px white;
+}
+
+.shead .stitle i:hover {
+    background-color: white;
+    color: orange;
+    opacity: 1;
+    border: solid 2px orange;
+}
+
+.shead .dropdown .dropdown-arrow {
+    background-color: var(--yellow);
+    color: orange;
+}
+
+#trending-anime .dropdown .dropdown-menu.show {
+background-color: var(--surface0);
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: var(--text);
+    background-color: var(--overlay0);
+    border-radius: 20px;
+}
+
+.dropdown-item:hover {
+    color: var(--text);
+    background-color: var(--surface1);
+    border-radius: 20px;
+}
+
+.aitem-col .aitem .num {
+    border: solid 2px white;
+    background-color: var(--yellow);
+    color: orange;
+}
+
+.aitem-col .aitem:hover .num {
+    border: solid 2px orange;
+    background-color: white;
+    color: orange;
+}
+
+.aitem-col .aitem::before {
+    background: linear-gradient(90deg, var(--surface0) 65%, transparent 100%);
+}
+
+#schedule .swiper.schedule::before,
+#schedule .swiper.schedule::after {
+background: transparent;
+}
+
+#schedule .schedule-next,
+#schedule .schedule-prev {
+opacity: 1;
+}
+
+#schedule .swiper.schedule .swiper-wrapper .swiper-slide.active > div {
+background-color: var(--red);
+}
+
+#schedule .swiper.schedule .swiper-wrapper .swiper-slide > div {
+background-color: var(--surface0);
+}
+
+#schedule ul {
+background-color: var(--surface0);
+}
+
+#schedule ul li a.passed:hover {
+background-color: var(--surface2);
+}
+
+#schedule ul li a:hover .title,
+#schedule .sfoot .btn-expand:hover {
+color: white;
+}
+
+#schedule ul li a.current::before {
+background: var(--red);
+}
+
+/* Footer */
+footer {
+    background-color: var(--surface0);
+}
+
+footer .top-footer .wrapper .azlist ul li a {
+    background-color: var(--surface2);
+    color: var(--text);
+}
+
+footer .top-footer .wrapper .azlist ul li a:hover {
+    background-color: var(--red);
+    color: var(--crust);
+}
+
+footer .top-footer .wrapper .menu-footer a:hover,
+.text-muted a:hover {
+    color: white !important;
+}
+
+/* Browser */
+#filters .main-filters > div .form-control,
+#filters .main-filters > div .dropdown > button.dropdown-toggle {
+background: var(--red);
+color: var(--crust);
+border: solid 2px white;
+}
+
+#filters .main-filters > div .form-control::placeholder {
+color: var(--crust);
+opacity: .5;
+}
+
+#filters .main-filters > div .search::after {
+color: var(--crust);
+}
+
+#filters .main-filters > div .dropdown > button.dropdown-toggle:hover {
+background: white;
+color: var(--red);
+border: solid 2px var(--red);
+}
+
+#filters .main-filters > div .btn-more-filter {
+background: var(--yellow);
+border: solid 2px orange;
+}
+
+#filters .main-filters > div .btn-more-filter:hover {
+background: white;
+}
+
+i.fa-solid.fa-sliders::before {
+    color: orange;
+}
+
+#filters .main-filters > div.submit-more-btn .btn-submit {
+background-color: var(--yellow);
+border: solid 2px orange;
+color: orange
+}
+
+i.fa-solid.fa-feather::before {
+    color: orange;
+}
+
+#filters .main-filters > div.submit-more-btn .btn-submit:hover {
+background-color: white;
+}
+
+ul.dropdown-menu.c1.show,
+.dropdown-menu.c4.show,
+#filters .more-filters {
+background-color: var(--surface1);
+}
+
+#filters .main-filters > div .dropdown .dropdown-menu li:hover label {
+background-color: var(--overlay0);
+}
+
+#filters .main-filters > div .dropdown .dropdown-menu li > input:checked ~ label,
+#filters .main-filters > div .dropdown .dropdown-menu li > input[type = "checkbox"]:checked + label,
+#filters .dropdown-wrap > div .dropdown .dropdown-menu li > input[type = "checkbox"]:checked + label {
+background: var(--blue);
+}
+
+#filters .main-filters > div .dropdown .dropdown-menu li > input.exclude[type = "checkbox"]:checked + label {
+background: var(--surface0);
+color: var(--subtext0);
+}
+
+#filters .main-filters > div .dropdown .dropdown-menu li > input:checked ~ label {
+background: var(--blue) !important;
+}
+
+#filters .dropdown-wrap > div .dropdown > button.dropdown-toggle {
+background: var(--surface2);
+}
+
+#filters .dropdown-wrap > div .dropdown > button.dropdown-toggle:hover {
+background: var(--surface0);
+}
+
+#filters .dropdown-wrap > div .dropdown .dropdown-menu li:hover label {
+background: var(--surface2)
+}
+
+.dropdown.responsive ul.dropdown-menu.c1.show,
+.dropdown.responsive ul.dropdown-menu.c3.show {
+    background: var(--overlay0);
+}
+
+#filters .more-filters .no-dropdown .form-label {
+color: var(--text);
+}
+
+#filters .more-filters .no-dropdown .form-check-input:checked {
+background-color: var(--blue);
+}
+
+#filters .more-filters .no-dropdown .form-check-input {
+background-color: var(--surface0);
+}
+
+.shead.justify > span {
+    color: var(--text) !important;
+}
+
+.active > .page-link {
+    color: var(--crust);
+    background-color: var(--red);
+}
+
+.page-link {
+    color: var(--text);
+    background-color: var(--surface2);
+}
+
+.page-link:hover {
+    color: white;
+    background-color: var(--surface0);
+}
+
+.page-item.active .page-link:hover {
+    background-color: var(--red);
+    color: var(--crust);
+}
+
+/* Profile */
+.userprofile .profille-info .username {
+    color: var(--text);
+}
+
+.userprofile .profille-info .status a,
+a.copier {
+    color: var(--subtext1);
+}
+
+.userprofile .profille-info .status a:hover {
+    color: white;
+}
+
+.userprofile .profille-info .time,
+.userprofile .profille-info .status {
+    color: var(--subtext0);
+}
+
+ul.activities li {
+    color: var(--overlay0);
+}
+
+ul.activities li .detail b,
+ul.activities li .detail a {
+    color: var(--subtext1);
+}
+
+ul.activities li .detail a:hover {
+    color: white;
+}
+
+/* Profile */
+.profile-sbg {
+    background-color: var(--surface0);
+}
+
+.form-control:disabled {
+    color: rgba(255, 255, 255, .5);
+    background-color: var(--surface1);
+}
+
+.btn-primary {
+    background-color: var(--yellow);
+    color: orange;
+    border: solid 2px orange;
+}
+
+.btn-primary:hover {
+    background-color: white;
+    color: orange;
+}
+
+.profile-ctrl .profile-menu a.active {
+    background-color: var(--yellow);
+    color: orange;
+    border: solid 2px orange;
+    font-weight: bold;
+}
+
+.profile-ctrl .profile-menu a.active .fa-solid.fa-user::before,
+.profile-ctrl .profile-menu a.active .fa-solid.fa-clock-rotate-left::before,
+.profile-ctrl .profile-menu a.active .fa-solid.fa-heart::before,
+.profile-ctrl .profile-menu a.active .fa-solid.fa-bell::before,
+.profile-ctrl .profile-menu a.active .fa-solid.fa-file-import::before,
+.profile-ctrl .profile-menu a.active .fa-solid.fa-gear-complex::before {
+    color: orange;
+}
+
+.ava-collection button {
+    background-color: var(--surface2);
+    color: var(--subtext1)
+}
+
+.ava-collection button:hover {
+    background-color: var(--surface0);
+}
+
+.ava-collection button.active {
+    background-color: var(--red);
+    color: var(--crust);
+}
+
+/* watching */
+.alert.alert-info {
+    background-color: var(--green);
+    color: var(--surface1);
+}
+
+/* Bookmarks */
+#user-folder > div > a:hover {
+color: var(--text);
+}
+
+#user-folder > div > a {
+color: var(--subtext0);
+}
+
+#user-folder > div > a.active {
+color: white;
+}
+
+#user-folder > div > a,
+#user-folder > div > button {
+color: var(--subtext0);
+}
+
+.fa-chevron-down::before {
+    color: var(--subtext0);
+}
+
+#user-folder > div .dropdown-menu {
+background-color: var(--surface0);
+}
+
+#user-folder > div .dropdown-menu .btn-submit {
+background-color: var(--surface1);
+color: #fff;
+}
+
+#user-folder > div .dropdown-menu .btn-submit:hover {
+background-color: var(--surface2);
+color: white;
+}
+
+.aitem-wrapper.wide .aitem .inner {
+    background: var(--surface0);
+}
+
+.aitem-wrapper.wide .aitem:hover .inner {
+    background: var(--mantle);
+}
+
+.aitem-wrapper.wide .aitem .inner .detail .dropdown.folder-select button {
+    background-color: var(--yellow);
+    color: orange;
+    font-weight: bold;
+    border: solid 2px orange;
+}
+
+.aitem-wrapper.wide .aitem .inner .detail .dropdown.folder-select button:hover {
+    background-color: white;
+}
+
+/* Import */
+.tab-content .info {
+    background-color: var(--surface1);
+}
+
+.form-control[type = "file"]::file-selector-button,
+.form-control[type = "file"]::-webkit-file-upload-button {
+    background-color: var(--yellow);
+    color: orange;
+    font-weight: bold;
+    border: solid 2px orange;
+}
+
+.form-control[type = "file"]:hover::file-selector-button,
+.form-control[type = "file"]:hover::-webkit-file-upload-button {
+    background-color: white !important;
+}
+
+.form-check-input:checked {
+    background-color: var(--yellow);
+    border: solid 2px orange;
+}
+
+.col-form-label {
+    color: var(--text);
+}
+
+.form-check-label {
+    color: var(--subtext0);
+}
+
+/* watch */
+.rating {
+    color: orange;
+    background-color: var(--yellow);
+    border: solid 2px orange;
+    padding-bottom: 17px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.desc.text-expand,
+.breadcrumb-item a {
+    color: var(--subtext0)
+}
+
+.breadcrumb-item a:hover,
+i.fa-solid.fa-house:hover {
+    color: white;
+}
+
+.entity-section .main-entity .al-title,
+.entity-section .main-entity .detail > div > div {
+    color: var(--overlay2);
+}
+
+.entity-section .main-entity .detail > div > div > span > a,
+.entity-section .main-entity .detail > div > div > span {
+    color: var(--text);
+}
+
+.entity-section .main-entity .detail > div > div > span > a:hover {
+    color: white;
+}
+
+#anime-rating .text-primary {
+color: var(--text) !important;
+}
+
+.entity-section .rate-box .stars i.active {
+    color: var(--yellow);
+}
+
+.entity-section .rate-box .stars:hover i.active {
+    color: orange;
+}
+
+.entity-section .rate-box .stars i {
+    color: var(--surface1);
+}
+
+#player-server .server-note p {
+color: var(--text);
+}
+
+#player-server .server-note span {
+color: var(--subtext0);
+}
+
+#player-server .server-wrap .server-type span {
+color: var(--subtext0);
+}
+
+#player-server .server-wrap .server-type span.active,
+#player-server .server-wrap .server-type span:hover {
+color: white;
+}
+
+#player-server .server-wrap .server-type span.tab[data-id = "sub"].active svg.sub,
+#player-server .server-wrap .server-type span.tab[data-id = "sub"]:hover svg.sub {
+border-color: var(--red);
+fill: white;
+}
+
+#player-server .server-wrap .server-type span.tab[data-id = "softsub"].active svg.sub,
+#player-server .server-wrap .server-type span.tab[data-id = "softsub"]:hover svg.sub {
+border-color: var(--blue);
+fill: white;
+}
+
+#player-server .server-wrap .server-type span.active svg.dub,
+#player-server .server-wrap .server-type span:hover svg.dub {
+border-color: var(--green);
+fill: white;
+}
+
+#player-server .server-wrap .server-items span {
+background-color: var(--surface2);
+color: var(--subtext0);
+}
+
+#player-server .server-wrap .server-items span.active,
+#player-server .server-wrap .server-items span:hover {
+background-color: var(--green);
+color: var(--surface1);
+}
+
+#wrapper.watch .breadcrumb,
+.entity-section .main-entity .entity-scroll,
+.episode-section {
+    background: var(--surface1);
+}
+
+.entity-section .rate-box,
+#player-server,
+#player-control,
+#malp {
+background-color: var(--surface0);
+}
+
+.episode-section .head-top > div:not(.title) .list-sw {
+    background-color: var(--yellow);
+    border: solid 2px orange;
+    opacity: 1;
+}
+
+.fa-solid.fa-square-list {
+    color: orange;
+    opacity: 1;
+}
+
+.episode-section .head-top > div:not(.title) .list-sw:hover {
+    background-color: white;
+    opacity: 1;
+}
+
+.episode-section .head-bot {
+    background-color: var(--surface0);
+}
+
+.episode-section .eplist ul > li a.active,
+.episode-section .eplist ul > li a.active:hover,
+.episode-section .eplist ul > li a:hover,
+.episode-section .eplist ul > li a:visited:hover {
+    background: var(--red) !important;
+    color: var(--crust) !important;
+}
+
+.episode-section .eplist.titles ul > li a.active span,
+.episode-section .eplist ul > li a:hover span {
+    color: var(--crust);
+}
+
+.episode-section .eplist ul > li a {
+    color: var(--text);
+}
+
+.subdub-sw span {
+    background-color: var(--yellow);
+    opacity: 1;
+}
+
+.subdub-sw span.active,
+.subdub-sw span:hover {
+    background-color: white;
+    border: solid 2px orange;
+}
+
+.subdub-sw span.active svg.sub,
+.subdub-sw span.active svg.dub,
+.subdub-sw span svg.sub,
+.subdub-sw span svg.dub,
+.subdub-sw span:hover svg.sub,
+.subdub-sw span:hover svg.dub {
+    fill: orange;
+    padding: 3px;
+}
+
+.mal-sync-active {
+    background-color: var(--overlay0)!important;
+}
+
+#announcement {
+background-color: var(--green);
+color: var(--surface1);
+}
+
+i.fa-solid.fa-scroll::before {
+    color: var(--surface1);
+}
+
+.episode-section .eplist ul {
+    scrollbar-color: var(--green) transparent;
+}
+
+#player-control .ctrl > button.active i {
+color: var(--yellow);
+}
+
+#player-control .ctrl > button.active i:hover {
+color: orange;
+opacity: 1;
+}
+
+.dropdown-menu.range-options.show {
+    background-color: var(--surface2);
+}
+
+.dropdown-menu.range-options.show .dropdown-item.item.active {
+    background-color: var(--surface2);
+}
+
+#malp #MalData .malp-group > .malp-group-field,
+#malp #MalData .malp-group > .malp-group-value-section {
+background-color: var(--surface1) !important;
+color: var(--text) !important;
+}
+
+/* Comments */
+.shead .stitle.onoff-toggle::after {
+    background-color: var(--red);
+    color: var(--crust);
+}
+
+.shead .stitle.onoff-toggle:hover::after {
+    background-color: var(--red);
+    color: var(--crust);
+}
+
+.text-primary {
+    color: var(--surface1) !important;
+}
+
+.text-primary:hover {
+    color: var(--mantle) !important;
+}
+
+#cm-widget .cm-head .sort-cm a.active {
+border-bottom: 2px solid var(--red);
+}
+
+#cm-widget .cm-editor > textarea {
+background-color: var(--blue);
+}
+
+#cm-widget .cm-editor .editor-ctrl {
+background-color: var(--surface0);
+}
+
+#cm-widget .cm-editor .editor-ctrl .btn-cancel:hover {
+color: white;
+}
+
+#cm-widget .cm-item .main .detail .header .collapser {
+color: var(--yellow);
+opacity: 1;
+}
+
+#cm-widget .cm-item .main .detail .header .collapser:hover {
+color: orange;
+opacity: 1;
+}
+
+#cm-widget .cm-foot button {
+background: var(--yellow);
+color: orange;
+border: solid 2px orange;
+font-weight: bold;
+}
+
+#cm-widget .cm-foot button:hover {
+background: white;
+}
+
+.content.content-rendered {
+    color: var(--overlay0) !important;
+}
+
+.timestamp {
+    color: white !important;
+}
+
+.dropdown-menu.more.show {
+    background-color: var(--surface1);
+}
