@@ -1,6 +1,6 @@
 # AnimeKAI Catppuccin
 
-A custom Catppuccin Mocha-inspired [AnimeKAI](https://animekai.me/ "Go to AnimeKAI homepage") theme.
+A custom Catppuccin Mocha-inspired [AnimeKAI](https://animekai.to/home "Go to AnimeKAI homepage") theme.
 
 # **Preview**
 ![animekai-catppuccin-preview](https://raw.githubusercontent.com/shunsui18/animekai-catppuccin/refs/heads/main/animekai-catppuccin-preview.png)
