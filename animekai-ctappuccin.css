@@ -38,6 +38,7 @@ domain("animekai.me")
 		--base: #1e1e2e;
 		--mantle: #181825;
 		--crust: #11111b;
+		--brown: #c06600;
 	}
 
 	/*---------------------------------------------*/
@@ -115,7 +116,7 @@ domain("animekai.me")
 	{
 		0%
 		{
-			background-image: linear-gradient(orange 1rem, transparent 0),
+			background-image: linear-gradient(var(--brown) 1rem, transparent 0),
 			linear-gradient(var(--yellow) 1rem, transparent 0),
 			linear-gradient(var(--yellow) 1rem, transparent 0);
 			background-position: 0 0,
@@ -126,7 +127,7 @@ domain("animekai.me")
 		33%
 		{
 			background-image: linear-gradient(var(--yellow) 1rem, transparent 0),
-			linear-gradient(orange 1rem, transparent 0),
+			linear-gradient(var(--brown) 1rem, transparent 0),
 			linear-gradient(var(--yellow) 1rem, transparent 0);
 			background-position: 0 0,
 			1.3rem 0,
@@ -137,7 +138,7 @@ domain("animekai.me")
 		{
 			background-image: linear-gradient(var(--yellow) 1rem, transparent 0),
 			linear-gradient(var(--yellow) 1rem, transparent 0),
-			linear-gradient(orange 1rem, transparent 0);
+			linear-gradient(var(--brown) 1rem, transparent 0);
 			background-position: 0 0,
 			1.3rem 0,
 			2.6rem 0;
@@ -145,7 +146,7 @@ domain("animekai.me")
 
 		100%
 		{
-			background-image: linear-gradient(orange 1rem, transparent 0),
+			background-image: linear-gradient(var(--brown) 1rem, transparent 0),
 			linear-gradient(var(--yellow) 1rem, transparent 0),
 			linear-gradient(var(--yellow) 1rem, transparent 0);
 			background-position: 0 0,
@@ -233,30 +234,34 @@ domain("animekai.me")
 	.lang-sw span.active
 	{
 		background-color: var(--yellow);
-		color: orange;
+		color: var(--brown);
 	}
 
 	.lang-sw span.active:hover
 	{
 		background-color: var(--yellow);
-		color: orange;
+		color: var(--brown);
 	}
 
 	.acc-wrap .pathway .btn
 	{
 		background-color: var(--yellow);
-		border: solid 2px white;
 	}
 
 	.acc-wrap .pathway .btn .fa-solid
 	{
-		color: orange;
+		color: var(--brown);
+	}
+
+	.acc-wrap .pathway .btn:hover .fa-solid
+	{
+		color: var(--yellow);
+		opacity: 1;
 	}
 
 	.acc-wrap .pathway .btn:hover
 	{
-		background-color: white;
-		border: solid 2px orange;
+		background-color: var(--brown);
 		opacity: 1;
 	}
 
@@ -279,18 +284,21 @@ domain("animekai.me")
 	.acc-wrap .pathway .dropdown-menu .head > .btn
 	{
 		background-color: var(--yellow);
-		border: solid 2px white;
 	}
 
 	i.fa-solid.fa-arrow-right-from-bracket::before
 	{
-		color: orange;
+		color: var(--brown);
 	}
 
 	.acc-wrap .pathway .dropdown-menu .head > .btn:hover
 	{
-		background-color: white;
-		border: solid 2px orange;
+		background-color: var(--brown);
+	}
+
+	.acc-wrap .pathway .dropdown-menu .head > .btn:hover > i.fa-solid.fa-arrow-right-from-bracket::before
+	{
+		color: var(--yellow);
 	}
 
 	.acc-wrap .pathway .dropdown-menu .head > .btn i
@@ -401,15 +409,14 @@ domain("animekai.me")
 	.modal .modal-dialog .modal-content .modal-btn
 	{
 		background-color: var(--yellow);
-		color: orange;
-		border: solid 2px white;
+		color: var(--brown);
+		border: none;
 	}
 
 	.modal .modal-dialog .modal-content .modal-btn:hover
 	{
-		background-color: white;
-		color: orange;
-		border: solid 2px orange;
+		background-color: var(--brown);
+		color: var(--yellow);
 	}
 
 	.mt-3
@@ -473,15 +480,14 @@ domain("animekai.me")
 	#featured .swiper.featured .swiper-wrapper .swiper-slide .detail .swiper-ctrl .watch-btn
 	{
 		background-color: var(--yellow);
-		color: orange;
-		border: solid 2px white;
+		color: var(--brown);
+		border: none;
 	}
 
 	#featured .swiper.featured .swiper-wrapper .swiper-slide .detail .swiper-ctrl .watch-btn:hover
 	{
-		background-color: white;
-		color: orange;
-		border: solid 2px orange;
+		background-color: var(--brown);
+		color: var(--yellow);
 	}
 
 	#featured .swiper.featured .swiper-wrapper .swiper-slide .detail .swiper-ctrl .dropdown button:hover
@@ -528,7 +534,7 @@ domain("animekai.me")
 
 	i.fa-solid.fa-square-arrow-up-right:hover
 	{
-		color: orange;
+		color: var(--brown);
 		background: radial-gradient(circle, rgba(249, 226, 175, 1) 0%, rgba(249, 226, 175, 1) 47%, rgba(237, 221, 83, 0) 21%);
 	}
 
@@ -536,7 +542,7 @@ domain("animekai.me")
 	i.fa-solid.fa-circle-chevron-right
 	{
 		color: var(--yellow);
-		background-color: orange;
+		background-color: var(--brown);
 		border-radius: 20px;
 		opacity: 1;
 	}
@@ -544,7 +550,7 @@ domain("animekai.me")
 	i.fa-solid.fa-circle-chevron-left:hover,
 	i.fa-solid.fa-circle-chevron-right:hover
 	{
-		color: orange;
+		color: var(--brown);
 		background-color: var(--yellow);
 		border-radius: 20px;
 	}
@@ -590,18 +596,21 @@ domain("animekai.me")
 	.aitem-wrapper.regular .aitem .inner .ctrl button
 	{
 		background-color: var(--yellow);
-		border: solid 2px white;
 	}
 
 	.aitem-wrapper.regular .aitem .inner .ctrl button:hover
 	{
-		background-color: white;
-		border: solid 2px orange;
+		background-color: var(--brown);
 	}
 
-	.aitem-wrapper.regular .aitem .inner .ctrl button i
+	.aitem-wrapper.regular .aitem .inner .ctrl button:hover > i.fa-solid.fa-info::before
 	{
-		color: orange;
+		color: var(--yellow);
+	}
+
+	i.fa-solid.fa-info::before
+	{
+		color: var(--brown);
 	}
 
 	.tooltipster-content
@@ -634,7 +643,13 @@ domain("animekai.me")
 
 	.tooltipster-box .tooltipster-content .watch-btn:hover i
 	{
-		color: orange !important;
+		color: var(--brown) !important;
+	}
+
+	.aitem-wrapper.regular .aitem .inner .tags .adult
+	{
+		background: var(--red);
+		color: var(--crust);
 	}
 
 	/* Side Panel */
@@ -646,23 +661,22 @@ domain("animekai.me")
 	.shead .stitle i
 	{
 		background-color: var(--yellow);
-		color: orange;
+		color: var(--brown);
 		opacity: 1;
-		border: solid 2px white;
-	}
-
-	.shead .stitle i:hover
-	{
-		background-color: white;
-		color: orange;
-		opacity: 1;
-		border: solid 2px orange;
 	}
 
 	.shead .dropdown .dropdown-arrow
 	{
 		background-color: var(--yellow);
-		color: orange;
+		color: var(--brown);
+		border: none;
+	}
+
+	.shead .dropdown .dropdown-arrow:active
+	{
+		background-color: var(--yellow) !important;
+		color: var(--brown) !important;
+		border: none !important;
 	}
 
 	#trending-anime .dropdown .dropdown-menu.show
@@ -689,16 +703,14 @@ domain("animekai.me")
 
 	.aitem-col .aitem .num
 	{
-		border: solid 2px white;
 		background-color: var(--yellow);
-		color: orange;
+		color: var(--brown);
 	}
 
 	.aitem-col .aitem:hover .num
 	{
-		border: solid 2px orange;
-		background-color: white;
-		color: orange;
+		background-color: var(--brown);
+		color: var(--yellow);
 	}
 
 	.aitem-col .aitem::before
@@ -803,34 +815,57 @@ domain("animekai.me")
 	#filters .main-filters > div .btn-more-filter
 	{
 		background: var(--yellow);
-		border: solid 2px orange;
+		border: solid 2px var(--brown);
 	}
 
 	#filters .main-filters > div .btn-more-filter:hover
 	{
-		background: white;
+		background: var(--brown);
+		border: solid 2px var(--yellow);
+	}
+
+	#filters .main-filters > div .btn-more-filter:hover > i.fa-solid.fa-sliders::before
+	{
+		color: var(--yellow);
+	}
+
+	#filters .main-filters > div .btn-more-filter > i.fa-solid
+	{
+		opacity: 1;
 	}
 
 	i.fa-solid.fa-sliders::before
 	{
-		color: orange;
+		color: var(--brown);
 	}
 
 	#filters .main-filters > div.submit-more-btn .btn-submit
 	{
 		background-color: var(--yellow);
-		border: solid 2px orange;
-		color: orange
+		color: var(--brown);
+		border: solid 2px var(--brown);
 	}
 
 	i.fa-solid.fa-feather::before
 	{
-		color: orange;
+		color: var(--brown);
+	}
+
+	#filters .main-filters > div.submit-more-btn .btn-submit:hover > i.fa-solid.fa-feather::before
+	{
+		color: var(--yellow);
+	}
+
+	#filters .main-filters > div.submit-more-btn .btn-submit > i.fa-solid
+	{
+		opacity: 1;
 	}
 
 	#filters .main-filters > div.submit-more-btn .btn-submit:hover
 	{
-		background-color: white;
+		background-color: var(--brown);
+		color: var(--yellow);
+		border: solid 2px var(--yellow);
 	}
 
 	ul.dropdown-menu.c1.show,
@@ -982,22 +1017,39 @@ domain("animekai.me")
 	.btn-primary
 	{
 		background-color: var(--yellow);
-		color: orange;
-		border: solid 2px orange;
+		color: var(--brown);
 	}
 
 	.btn-primary:hover
 	{
-		background-color: white;
-		color: orange;
+		background-color: var(--brown);
+		color: var(--yellow);
+	}
+
+	.submit.btn.w-100.btn-primary.mt-2:active
+	{
+		background-color: var(--brown) !important;
+		color: var(--yellow) !important;
+		border: none !important;
+	}
+
+	.submit.btn.w-100.btn-primary.mt-2:disabled
+	{
+		background-color: var(--brown) !important;
+		color: var(--yellow) !important;
+		border: none !important;
 	}
 
 	.profile-ctrl .profile-menu a.active
 	{
 		background-color: var(--yellow);
-		color: orange;
-		border: solid 2px orange;
+		color: var(--brown);
 		font-weight: bold;
+	}
+
+	i.fa-solid
+	{
+		opacity: 1;
 	}
 
 	.profile-ctrl .profile-menu a.active .fa-solid.fa-user::before,
@@ -1007,7 +1059,7 @@ domain("animekai.me")
 	.profile-ctrl .profile-menu a.active .fa-solid.fa-file-import::before,
 	.profile-ctrl .profile-menu a.active .fa-solid.fa-gear-complex::before
 	{
-		color: orange;
+		color: var(--brown);
 	}
 
 	.ava-collection button
@@ -1032,6 +1084,16 @@ domain("animekai.me")
 	{
 		background-color: var(--green);
 		color: var(--surface1);
+	}
+
+	i.fa-solid.fa-xmark
+	{
+		color: var(--brown);
+	}
+
+	.watching-delete:hover i.fa-solid.fa-xmark
+	{
+		color: var(--yellow);
 	}
 
 	/* Bookmarks */
@@ -1091,14 +1153,14 @@ domain("animekai.me")
 	.aitem-wrapper.wide .aitem .inner .detail .dropdown.folder-select button
 	{
 		background-color: var(--yellow);
-		color: orange;
+		color: var(--brown);
 		font-weight: bold;
-		border: solid 2px orange;
 	}
 
 	.aitem-wrapper.wide .aitem .inner .detail .dropdown.folder-select button:hover
 	{
-		background-color: white;
+		background-color: var(--brown);
+		color: var(--yellow);
 	}
 
 	/* Import */
@@ -1111,9 +1173,8 @@ domain("animekai.me")
 	.form-control[type = "file"]::-webkit-file-upload-button
 	{
 		background-color: var(--yellow);
-		color: orange;
+		color: var(--brown);
 		font-weight: bold;
-		border: solid 2px orange;
 	}
 
 	.form-control[type = "file"]:hover::file-selector-button,
@@ -1125,7 +1186,7 @@ domain("animekai.me")
 	.form-check-input:checked
 	{
 		background-color: var(--yellow);
-		border: solid 2px orange;
+		border: solid 2px var(--brown);
 	}
 
 	.col-form-label
@@ -1141,28 +1202,26 @@ domain("animekai.me")
 	.btn-primary:active
 	{
 		background-color: white !important;
-		color: orange !important;
-		border: solid 2px orange !important;
+		color: var(--brown) !important;
+		border: solid 2px var(--brown) !important;
 	}
 
-	.btn.disabled,
-	.btn:disabled,
-	fieldset:disabled .btn,
-	.btn:active
+	.ajax .btn:disabled
 	{
-		color: orange;
+		color: var(--brown);
 		background-color: white;
 	}
 
 	/* watch */
 	.rating
 	{
-		color: orange;
+		color: var(--brown);
 		background-color: var(--yellow);
-		border: solid 2px orange;
+		border: solid 2px var(--brown);
 		padding-bottom: 17px;
 		padding-left: 8px;
 		padding-right: 8px;
+		border-radius: 7px;
 	}
 
 	.desc.text-expand,
@@ -1206,7 +1265,7 @@ domain("animekai.me")
 
 	.entity-section .rate-box .stars:hover i.active
 	{
-		color: orange;
+		color: var(--brown);
 	}
 
 	.entity-section .rate-box .stars i
@@ -1287,13 +1346,12 @@ domain("animekai.me")
 	.episode-section .head-top > div:not(.title) .list-sw
 	{
 		background-color: var(--yellow);
-		border: solid 2px orange;
 		opacity: 1;
 	}
 
 	.fa-solid.fa-square-list
 	{
-		color: orange;
+		color: var(--brown);
 		opacity: 1;
 	}
 
@@ -1338,7 +1396,6 @@ domain("animekai.me")
 	.subdub-sw span:hover
 	{
 		background-color: white;
-		border: solid 2px orange;
 	}
 
 	.subdub-sw span.active svg.sub,
@@ -1348,7 +1405,7 @@ domain("animekai.me")
 	.subdub-sw span:hover svg.sub,
 	.subdub-sw span:hover svg.dub
 	{
-		fill: orange;
+		fill: var(--brown);
 		padding: 3px;
 	}
 
@@ -1380,7 +1437,7 @@ domain("animekai.me")
 
 	#player-control .ctrl > button.active i:hover
 	{
-		color: orange;
+		color: var(--brown);
 		opacity: 1;
 	}
 
@@ -1399,6 +1456,52 @@ domain("animekai.me")
 	{
 		background-color: var(--surface1) !important;
 		color: var(--text) !important;
+	}
+
+	#announcement::after
+	{
+		background: var(--red);
+		color: var(--crust);
+	}
+
+	.aitem-wrapper.season .aitem.active .inner .detail .btn
+	{
+		background-color: var(--yellow);
+		color: var(--brown);
+		font-weight: bold;
+	}
+
+	.aitem-wrapper.season .aitem .inner .detail .btn
+	{
+		color: var(--text);
+		background-color: var(--overlay0);
+	}
+
+	.aitem-wrapper.season .aitem:hover .inner .detail .btn
+	{
+		background-color: var(--yellow);
+		color: var(--brown);
+		font-weight: bold;
+	}
+
+	.aitem-wrapper.season .aitem .inner .detail span
+	{
+		color: var(--text);
+	}
+
+	.aitem-wrapper.season .aitem.active .inner .detail span
+	{
+		color: white;
+	}
+
+	.aitem-wrapper.season .aitem:hover .inner .detail span
+	{
+		color: white;
+	}
+
+	#related-anime .shead.justify .dropdown .dropdown-menu.show
+	{
+		background-color: var(--surface0) !important;
 	}
 
 	/* Comments */
@@ -1452,15 +1555,14 @@ domain("animekai.me")
 
 	#cm-widget .cm-item .main .detail .header .collapser:hover
 	{
-		color: orange;
+		color: var(--brown);
 		opacity: 1;
 	}
 
 	#cm-widget .cm-foot button
 	{
 		background: var(--yellow);
-		color: orange;
-		border: solid 2px orange;
+		color: var(--brown);
 		font-weight: bold;
 	}
 
