@@ -529,13 +529,13 @@ domain("animekai.me")
 	{
 		color: var(--yellow);
 		opacity: 1;
-		background: radial-gradient(circle, rgba(255, 165, 0, 1) 0%, rgba(255, 165, 0, 1) 47%, rgba(237, 221, 83, 0) 21%);
+		background: radial-gradient(circle, var(--brown) 0%, var(--brown) 47%, rgba(237, 221, 83, 0) 21%);
 	}
 
 	i.fa-solid.fa-square-arrow-up-right:hover
 	{
 		color: var(--brown);
-		background: radial-gradient(circle, rgba(249, 226, 175, 1) 0%, rgba(249, 226, 175, 1) 47%, rgba(237, 221, 83, 0) 21%);
+		background: radial-gradient(circle, var(--yellow) 0%, var(--yellow) 47%, rgba(237, 221, 83, 0) 21%);
 	}
 
 	i.fa-solid.fa-circle-chevron-left,
@@ -1161,6 +1161,29 @@ domain("animekai.me")
 	{
 		background-color: var(--brown);
 		color: var(--yellow);
+	}
+
+	/* Notifications */
+	.btn.more-btn.mark
+	{
+		color: var(--text);
+	}
+
+	.btn.more-btn.mark:hover
+	{
+		color: white;
+	}
+
+	.btn.more-btn.mark:hover i.fa-solid.fa-circle-check
+	{
+		color: var(--brown);
+		background: radial-gradient(circle, var(--yellow) 0%, var(--yellow) 47%, rgba(237, 221, 83, 0) 21%);
+	}
+
+	i.fa-solid.fa-circle-check
+	{
+		color: var(--yellow);
+		background: radial-gradient(circle, var(--brown) 0%, var(--brown) 47%, rgba(237, 221, 83, 0) 21%);
 	}
 
 	/* Import */
