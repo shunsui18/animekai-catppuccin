@@ -785,6 +785,84 @@ domain("animekai.me")
 		color: white !important;
 	}
 
+	/* Watch2gather */
+	.shead .snav > a.active
+	{
+		color: white;
+	}
+
+	.shead .snav > a
+	{
+		color: var(--subtext0);
+	}
+
+	.shead .snav a.text-primary
+	{
+		color: var(--text) !important;
+	}
+
+	.aitem-wrapper.w2g .aitem .inner
+	{
+		background-color: var(--surface0);
+		border-radius: 1.2rem;
+	}
+
+	.aitem-wrapper.w2g .aitem .inner .detail
+	{
+		background: radial-gradient(circle, var(--surface2) 0, var(--surface1) 100%);
+	}
+
+	.aitem-wrapper.w2g .aitem.ended .w2g-status
+	{
+		background-color: var(--mantle);
+	}
+
+	.aitem-wrapper.w2g .aitem.live .w2g-status
+	{
+		background-color: var(--yellow);
+		color: var(--brown);
+	}
+
+	.aitem-wrapper.w2g .aitem.live .w2g-status:hover
+	{
+		background-color: var(--brown);
+		color: var(--yellow);
+	}
+
+	.aitem-wrapper.w2g .aitem.waiting .w2g-status
+	{
+		background-color: var(--green);
+		color: var(--surface1);
+	}
+
+	.aitem-wrapper.w2g .aitem.waiting .w2g-status:hover
+	{
+		background-color: var(--sapphire);
+		color: var(--surface1);
+	}
+
+	#wrapper.room .player-main #player .message.dark-bg
+	{
+		background-color: var(--red);
+		color: var(--crust);
+		border: none;
+	}
+
+	#wrapper.room .player-main #player .message .sub-message
+	{
+		color: var(--crust);
+	}
+
+	#wrapper.room .player-main #player .message .form-group input
+	{
+		color: white;
+	}
+
+	.entity-section .main-entity .genre > a:hover
+	{
+		color: white;
+	}
+
 	/* Browser */
 	#filters .main-filters > div .form-control,
 	#filters .main-filters > div .dropdown > button.dropdown-toggle
