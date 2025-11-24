@@ -1319,10 +1319,14 @@ domain("animekai.me")
 		color: var(--brown);
 		background-color: var(--yellow);
 		border: solid 2px var(--brown);
+		border-radius: 7px;
+	}
+
+	#main-entity .info .rating
+	{
 		padding-bottom: 17px;
 		padding-left: 8px;
 		padding-right: 8px;
-		border-radius: 7px;
 	}
 
 	.desc.text-expand,
